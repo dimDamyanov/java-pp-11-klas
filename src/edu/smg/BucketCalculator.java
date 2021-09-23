@@ -18,12 +18,12 @@ public class BucketCalculator {
 		double totalArea = width * lenght + 2 * height * (lenght + width);
 		int largeBuckets = 0, smallBuckets = 0;
 		while (totalArea > 0) {
-			if (totalArea > 140 || totalArea / 40 >= 3) {
+			if (totalArea > 140 || totalArea / 30 >= 3) {
 				totalArea -= 140;
 				largeBuckets++;
 			}
 			else {
-				totalArea -= 40;
+				totalArea -= 30;
 				smallBuckets++;
 			}
 		}
