@@ -14,6 +14,7 @@ public class BucketCalculator {
 		lenght = input.nextDouble();
 		System.out.println("Width of the room: ");
 		width = input.nextDouble();
+		input.close();
 		
 		double totalArea = width * lenght + 2 * height * (lenght + width);
 		int largeBuckets = 0, smallBuckets = 0;
