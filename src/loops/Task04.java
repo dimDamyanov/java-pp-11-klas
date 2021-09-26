@@ -22,7 +22,7 @@ public class Task04 {
 	
 	public static int[][] constructMonthGrid(int startingWeekDay, int days) {
 		int[][] monthGrid = new int[6][7];
-		int currentWeek = 0, currentWeekDay = startingWeekDay;
+		int currentWeek = 0, currentWeekDay = startingWeekDay % 7;
 		
 		for (int i = 1; i <= days; i++) {
 			monthGrid[currentWeek][currentWeekDay] = i;

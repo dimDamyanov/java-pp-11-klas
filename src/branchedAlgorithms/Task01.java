@@ -1,10 +1,12 @@
-package edu.smg;
+package branchedAlgorithms;
+
 import java.util.Scanner;
 
-public class BucketCalculator {
+public class Task01 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		
 		Scanner input = new Scanner(System.in);
 		
 		double height, lenght, width;
@@ -33,5 +35,4 @@ public class BucketCalculator {
 		System.out.println("Small buckets: " + smallBuckets + " x 4$ = " + smallBuckets * 4 + "$");
 		System.out.println("Total: " + (largeBuckets * 15 + smallBuckets * 4) + "$");
 	}
-
 }
