@@ -25,6 +25,7 @@ public class Task04 {
 		int currentWeek = 0, currentWeekDay = startingWeekDay % 7;
 		
 		for (int i = 1; i <= days; i++) {
+			
 			monthGrid[currentWeek][currentWeekDay] = i;
 			
 			if (currentWeekDay == 6) {
