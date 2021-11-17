@@ -1,4 +1,4 @@
-package edu.smg;
+package unit04;
 import java.util.Scanner;
 
 public class BucketCalculator {

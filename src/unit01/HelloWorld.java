@@ -1,4 +1,4 @@
-package edu.smg;
+package unit01;
 
 public class HelloWorld {
 

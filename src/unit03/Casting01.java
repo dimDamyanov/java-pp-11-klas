@@ -1,4 +1,4 @@
-package edu.smg;
+package unit03;
 
 public class Casting01 {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package edu.smg;
+package unit02;
 import java.util.Scanner;
 
 public class Input {
