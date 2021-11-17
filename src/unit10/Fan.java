@@ -51,7 +51,8 @@ public class Fan {
     
     public String toString() {
         if(this.switchedOn) {
-            return String.format("Speed: %d, Color: %s, Radius: %.2f", this.speed, this.color, this.radius);
+            // return String.format("Speed: %d, Color: %s, Radius: %.2f", this.speed, this.color, this.radius);
+            return "Speed: " + String.valueOf(this.speed) + ", Color: " + this.color + ", Radius: " + String.valueOf(this.radius);
         }
         else {
             return String.format("The fan is turned off. Color: %s, Radius: %.2f", this.color, this.radius);

@@ -1,4 +1,4 @@
-package loops;
+package unit06;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Scanner;

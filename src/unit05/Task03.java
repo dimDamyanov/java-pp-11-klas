@@ -1,4 +1,4 @@
-package branchedAlgorithms;
+package unit05;
 import java.util.Scanner;
 
 public class Task03 {

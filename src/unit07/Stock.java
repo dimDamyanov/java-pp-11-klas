@@ -1,4 +1,4 @@
-package objectOriented;
+package unit07;
 
 public class Stock {
 	String symbol;

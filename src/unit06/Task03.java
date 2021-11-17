@@ -1,4 +1,4 @@
-package loops;
+package unit06;
 import java.util.Scanner;
 
 public class Task03 {
