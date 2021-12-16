@@ -12,11 +12,7 @@ public class Time {
 	}
 	
 	Time(long milliseconds) {
-		this.seconds = (int) ((milliseconds/1000) % 60);
-		this.minutes = (int) ((milliseconds/(60*1000)) % 60);
-		this.hours = (int) ((milliseconds/(60*60*1000)) % 24);
-		
-		
+		this.setTime(milliseconds);		
 	}
 	
 	Time(int newHours, int newMinutes, int newSeconds) {
