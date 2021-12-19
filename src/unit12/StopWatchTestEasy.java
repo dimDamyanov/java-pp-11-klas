@@ -26,7 +26,7 @@ public class StopWatchTestEasy {
 		StopWatch stopWatch = new StopWatch();
 		sort(array);
 		stopWatch.stop();
-		System.out.printf("[%d...%d]\n", array[0], array[99999]);
+		// System.out.printf("[%d...%d]\n", array[0], array[99999]);
 		System.out.println(stopWatch.getElapsedTime());
 	}
 }
