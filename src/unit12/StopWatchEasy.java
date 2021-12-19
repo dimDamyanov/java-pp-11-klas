@@ -1,6 +1,5 @@
 package unit12;
 
-
 public class StopWatchEasy {
 	private long startTime;
 	private long endTime;
