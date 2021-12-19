@@ -21,12 +21,12 @@ public class StopWatchTestEasy {
 	public static void main(String[] args) {
 		int[] array = new int[100000];
 		for (int i = 0; i < array.length; i++) {
-			array[i] = (int) Math.random() * (int) Math.log10(Integer.MAX_VALUE);
+			array[i] = (int) (Math.random() * Integer.MAX_VALUE);
 		}
 		StopWatch stopWatch = new StopWatch();
 		sort(array);
 		stopWatch.stop();
-		// System.out.printf("[%d...%d]\n", array[0], array[99999]);
+		System.out.printf("[%d...%d]\n", array[0], array[99999]);
 		System.out.println(stopWatch.getElapsedTime());
 	}
 }
